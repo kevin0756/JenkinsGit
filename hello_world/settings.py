@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'hro-m5ncrg6#xj=qt4es1_rq$z*imlw)050cjw29z4$^09)k8_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.ap-southeast-2.compute.amazonaws.com']
 
 
 # Application definition
