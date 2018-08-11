@@ -25,7 +25,7 @@ SECRET_KEY = 'hro-m5ncrg6#xj=qt4es1_rq$z*imlw)050cjw29z4$^09)k8_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
